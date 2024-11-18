@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHubLibrary\\Csharp_Example\\CsharpExample\\",
+  "WorkspaceRootPath": "D:\\GitHubLibrary\\Csharp_Example\\CsharpEx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6497B16-46DD-4A53-AEF7-FC4EB17E0D54}|CsharpExample\\CsharpExample.csproj|d:\\githublibrary\\csharp_example\\csharpexample\\csharpexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6497B16-46DD-4A53-AEF7-FC4EB17E0D54}|CsharpExample\\CsharpExample.csproj|solutionrelative:csharpexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHubLibrary\\Csharp_Example\\CsharpEx\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHubLibrary\\Csharp_Example\\CsharpExample\\CsharpExample\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,14 +23,25 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\CsharpExample\\CsharpExample\\Program.cs",
-              "RelativeDocumentMoniker": "CsharpExample\\Program.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\CsharpExample\\CsharpExample\\Program.cs",
-              "RelativeToolTip": "CsharpExample\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\CsharpEx\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\CsharpEx\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T14:24:10.837Z",
+              "WhenOpened": "2024-11-18T14:28:55.94Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\CsharpExample\\CsharpExample\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CsharpExample\\CsharpExample\\Program.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\CsharpExample\\CsharpExample\\Program.cs",
+              "RelativeToolTip": "..\\CsharpExample\\CsharpExample\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:24:10.837Z"
             }
           ]
         }
