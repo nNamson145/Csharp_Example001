@@ -16,9 +16,8 @@ namespace ExampleCode
             DateTime Now = DateTime.Now;
             Console.WriteLine("Hello World!" + " " + Now);
 
-            SumOfTwoValue(10, 9);
-
-            //DrawBorder();
+            //Khai bao bien
+            VariableDeclaration();
 
             //Dien tich manh dat
             Console.WriteLine("Area of the land");
@@ -29,6 +28,8 @@ namespace ExampleCode
             int Area = Height * Width;
             Console.WriteLine("Area :" + Area);
 
+            //Tong hai gia tri
+            SumOfTwoValue(10, 9);
 
             //Chuyen doi tien te
             Console.Write("Exchange currency USD to VND");
@@ -38,8 +39,6 @@ namespace ExampleCode
             float VND = USD * ExchangeRate;
             Console.WriteLine("VND = " + VND);
 
-           
-
         }
         static void SumOfTwoValue(int A, int B)
         {
@@ -48,6 +47,23 @@ namespace ExampleCode
 
             Thread.Sleep(0);
         }
-        
+
+        static void VariableDeclaration()
+        {
+            int i = 10;
+            float f = 20.5f;
+            double d = 20.5;
+            Boolean b = true;
+            char c = 'a';
+            String s = "CodeGym";
+
+            Console.WriteLine("Giá trị của biến i là " + i);
+            Console.WriteLine("Giá trị của biến f là " + f);
+            Console.WriteLine("Giá trị của biến d là " + d);
+            Console.WriteLine("Giá trị của biến b là " + b);
+            Console.WriteLine("Giá trị của biến c là " + c);
+            Console.WriteLine("Giá trị của biến i là " + s);
+        }
+
     }
 }
