@@ -14,8 +14,11 @@ namespace ExampleCode
     {
         static void Main(string[] args)
         {
+            //3
+
+            /*//In thời gian thực và hello world
             DateTime Now = DateTime.Now;
-            Console.WriteLine("Hello World!" + " " + Now);
+            Console.WriteLine("Hello World!" + " " + Now);*/
 
             /*//Khai bao bien
             VariableDeclaration();*/
@@ -45,11 +48,43 @@ namespace ExampleCode
             string AnyStr = Console.ReadLine();
             ConvStrToInt(AnyStr); */
 
-            //DemoSwitchCase();
+            //4
 
-            ReadNum();
+            /*//Dùng thử case
+            DemoSwitchCase();*/
+
+            /*//đọc số thành chữ từ 0 đến 999
+            ReadNum();*/
+
+            /*//Giải phương tình bậc nhất
+            LinearEquationResolver();*/
+
+            /*//tính chỉ số cân nặng cơ thể
+            Bodymassindex();*/
+
+            /*//Kiểm tra năm nhuận
+            CheckLeapYear();*/
+
+            //Kiểm tra tháng có bao nhiêu ngày
+            CheckDayOfMonth();
+
+
+            //5
+
+            /*//làm lại bài tập đếm ngày bằng tuổi có vòng lặp
+            convertAgeWithLoop();*/
+
+            /*//hiển thị tất cả các số chia hết cho 5 trong khoảng từ 0 đến 100
+            Testloop();*/
+
+
 
         }
+
+        ////////////////////////////////////////////////////////////
+        /// <summary>
+        /// Bai 3 : C# căn bản - Biến, kiểu dữ liệu và toán tử
+        /// </summary>
 
         //Tổng hai số
         static void SumOfTwoValue(int A, int B)
@@ -77,9 +112,9 @@ namespace ExampleCode
             Console.WriteLine("Giá trị của biến i là " + s);
         }
 
-        ///////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////
         /// <summary>
-        /// /Câu lệnh điều kiện (if - else // switch case)
+        /// Bai 4 : Câu lệnh điều kiện (if - else // switch case)
         /// </summary>
 
         //Đổi String sang int
@@ -144,7 +179,28 @@ namespace ExampleCode
         //Giải phương tình bậc nhất
         static void LinearEquationResolver()
         {
+            Console.WriteLine("a * X + b = 0");
+            Console.Write("Hay nhap a: ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Hay nhap b: ");
+            double b = Convert.ToDouble(Console.ReadLine());
 
+            if (a != 0)
+            {
+                double solution = -b / a;
+                Console.WriteLine("Solution is : ", solution);
+            }
+            else //a bằng 0
+            {
+                if (b == 0)
+                {
+                    Console.WriteLine("All X");
+                }
+                else //b khác 0
+                {
+                    Console.WriteLine("Nod Solution");
+                }
+            }
         }
 
         //chuyển số sang dnag chữ 0 đến 999
@@ -168,7 +224,7 @@ namespace ExampleCode
                     case 7: Console.WriteLine("Seven"); break;
                     case 8: Console.WriteLine("Eight"); break;
                     case 9: Console.WriteLine("Nine"); break;
-                    case 10: Console.WriteLine("Ten");break;
+                    case 10: Console.WriteLine("Ten"); break;
                     default: break;
                 }
             }
@@ -256,7 +312,7 @@ namespace ExampleCode
                         case 9:
                             Console.Write("Nine");
                             break;
-                        default: 
+                        default:
                             break;
                     }
                 }
@@ -414,5 +470,164 @@ namespace ExampleCode
             }
             Console.ReadLine();
         }
+
+        //tính chỉ số cân nặng cơ thể
+        static void Bodymassindex()
+        {
+            Console.Write("Nhap chieu cao cua ban: ");
+            double height = double.Parse(Console.ReadLine());
+            Console.Write("Nhap can nang cua ban: ");
+            double weight = double.Parse(Console.ReadLine());
+
+            double bmi = weight / Math.Pow(height,2); //Cân nặng chia cho chiều cao mũ 2(bình phương)
+            bmi = Math.Round(bmi,1); //làm tròn
+
+            if (bmi < 18.5)
+            {
+                Console.WriteLine("Underweight");
+            }
+            else if (18.5 <= bmi && bmi <= 25.0)
+            {
+                Console.WriteLine("Normal");
+            }
+            else if (25.0 <= bmi && bmi <= 30.0)
+            {
+                Console.WriteLine("Overweight");
+            }
+            else
+            {
+                Console.WriteLine("Obese");
+            }
+            Console.WriteLine("Your bmi: " + bmi);
+        }
+
+        //Kiểm tra năm nhuận
+        static void CheckLeapYear()
+        {
+            int Year;
+            bool IsleapYear = false;
+
+            Console.Write("Nhap so nam can kiem tra :");
+            Year = Convert.ToInt32(Console.ReadLine());
+
+            bool OutOf4 = Year % 4 == 0;
+            if (OutOf4) 
+            { 
+                bool OutOf100 = Year % 100 == 0;
+                if (OutOf100)
+                {
+                    bool OutOf400 = Year % 400 == 0;
+                    if (OutOf400) 
+                    {
+                        IsleapYear = true;
+                    }
+                }
+                else
+                {
+                    IsleapYear = true;
+                }
+            }
+            if (IsleapYear)
+            {
+                Console.WriteLine("{0} is a leap year !!", Year);
+            }
+            else
+            {
+                Console.WriteLine("{0} isn't a leapp year!!", Year);
+            }
+        }
+
+        //Kiểm tra tháng có bao nhiêu ngày
+        static void CheckDayOfMonth()
+        {
+            Console.Write("Nhap thang can kiem tra cos bao nhieu ngay: ");
+            int month = Convert.ToInt32(Console.ReadLine()); //xử lý nhiều loại dữ liệu hơn.
+
+            switch (month)
+            {
+                case 2:
+                    Console.WriteLine(" Thang 2 có 28 hoac 29 ngay");
+                    break;
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                    Console.WriteLine("Thang {0} co 31 ngay", month);
+                    break;
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    Console.WriteLine("Thang {0} co 30 ngay", month);
+                    break;
+                default: 
+                    Console.WriteLine(" Thang khong hop le");
+                    break;
+            }
+
+
+        }
+
+        /////////////////////////////////////////////////
+        /// <summary>
+        /// Bai 5 : Câu lệnh lặp (1), Câu lệnh lặp (2)
+        /// </summary>
+
+        //làm lại bài tập đếm ngày bằng tuổi có vòng lặp
+        static void convertAgeWithLoop()
+        {
+            while (true)
+            {
+                Console.Write("Nhap so tuoi cua ban : ");
+                string StrAge = Console.ReadLine();
+                bool IsInt = int.TryParse(StrAge, out int age);
+
+                if (IsInt)
+                {
+                    if (age <= 0 || age > 120)
+                    {
+                        Console.WriteLine("So tuoi khong hop le");
+                    }
+                    else
+                    {
+                        int Days = 365 * age;
+                        Console.WriteLine("So ngay ban da tho : " + Days);
+                        break;
+                    }
+                }
+                else
+                {
+                    Console.Write("Ban nhap khong dung dinh dang so, xin hay nhap lai ! ");
+                }
+            }
+        }
+
+        //hiển thị tất cả các số chia hết cho 5 trong khoảng từ 0 đến 100
+        static void Testloop()
+        {
+            Console.WriteLine("Hien thi cac so chia het cho 5 trong khoan 0 - 100");
+            for (int i = 0; i <= 100; i++)
+            {
+                if (i % 5 == 0)
+                    Console.WriteLine("Cac so chia het cho 5 : " + i);
+            }
+        }
+
+        //Hiển thị các loại hình
+        static void GeometryMenu()
+        {
+            Console.WriteLine("1. Print the rectangle"); 
+            Console.WriteLine("2. Print the square triangle (The corner is square at 4 different angles: top-left, top-right, botton-left, botton-right)\r\n");
+            Console.WriteLine("3. Print isosceles triangle");
+            Console.WriteLine("4. Exit");
+        }
+
+
+
+
+
     }
 }
