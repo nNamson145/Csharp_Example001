@@ -65,8 +65,8 @@ namespace ExampleCode
             /*//Kiểm tra năm nhuận
             CheckLeapYear();*/
 
-            //Kiểm tra tháng có bao nhiêu ngày
-            CheckDayOfMonth();
+            /*//Kiểm tra tháng có bao nhiêu ngày
+            CheckDayOfMonth();*/
 
 
             //5
@@ -77,8 +77,14 @@ namespace ExampleCode
             /*//hiển thị tất cả các số chia hết cho 5 trong khoảng từ 0 đến 100
             Testloop();*/
 
+            /*// Ứng dụng tính tiền lãi cho vay
+            Interset();*/
 
+            /*//Hiển thị các loại hình
+            GeometryMenu();*/
 
+            /*//Hiển thị các số nguyên tố từ 2 đến 100
+            DisplaysInt();*/
         }
 
         ////////////////////////////////////////////////////////////
@@ -616,6 +622,33 @@ namespace ExampleCode
             }
         }
 
+        // Ứng dụng tính tiền lãi cho vay
+        static void Interset()
+        {
+            double money;
+            int month;
+            double IntersetRate;
+
+            Console.Write("Nhap so tien gui: ");
+            money = double.Parse(Console.ReadLine());
+
+            Console.Write("Nhap so thang gui: ");
+            month = int.Parse(Console.ReadLine());
+
+            Console.Write("Nhap lai suat ngan hang: ");
+            IntersetRate = double.Parse(Console.ReadLine());
+
+            double TotalInterset = 0; // nếu ko gán giá trị nào thì sau vòng lặp (nếu vòng lặp ko chạy thì sẽ ko đưa ra biến đó là loại giá trị nào nên gây lỗi)
+            for (int i = 0; i <= month; i++)
+            {
+                TotalInterset = money * (IntersetRate/100/12) * month;
+            }
+
+            Console.WriteLine("Tong tien lai: " + TotalInterset /*chỗ bị lỗi nếu không gán*/);
+            
+
+        }
+
         //Hiển thị các loại hình
         static void GeometryMenu()
         {
@@ -623,6 +656,68 @@ namespace ExampleCode
             Console.WriteLine("2. Print the square triangle (The corner is square at 4 different angles: top-left, top-right, botton-left, botton-right)\r\n");
             Console.WriteLine("3. Print isosceles triangle");
             Console.WriteLine("4. Exit");
+
+            Console.Write("Select: ");
+            int Option = int.Parse(Console.ReadLine());
+            switch (Option)
+            {
+                case 1:
+                    for (int i = 0;i < 3; i++)
+                    {
+                        for (int j = 0; j < 8; j++)
+                        {
+                            Console.Write("*");
+                        }
+                        Console.WriteLine("*");
+                    }
+                    break;
+                case 2:
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j < i; j++)
+                        {
+                            Console.Write("*");
+                        }
+                        Console.WriteLine("*");
+                    }
+                    break;
+                case 3:
+                    for (int i = 4; i >= 0; i--)
+                    {
+                        for (int j = 1; j <= i; j++)
+                        {
+                            Console.Write("*");
+                        }
+                        Console.WriteLine("*");
+                    }
+                    break;
+                case 4: 
+                    Console.ReadLine();
+                    break;
+                    
+            }
+        }
+
+        //Hiển thị các số nguyên tố từ 2 đến 100
+        static void DisplaysInt()
+        {
+            int CheckNum = 0;
+            Console.WriteLine("Danh sach so nguyen to tu 2 den 100:");
+            for (int i = 2; i <=100 ; i++)
+            {
+                for(int j = 1;j <= i ; j++)
+                {
+                    if (i % j == 0)
+                    {
+                        CheckNum++;
+                    }
+                }
+                if(CheckNum == 2)
+                {
+                    Console.WriteLine(i);
+                }
+                CheckNum = 0;
+            }
         }
 
 
