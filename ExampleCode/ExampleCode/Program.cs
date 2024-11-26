@@ -71,6 +71,8 @@ namespace ExampleCode
 
             //5
 
+            //5.(1)
+
             /*//làm lại bài tập đếm ngày bằng tuổi có vòng lặp
             convertAgeWithLoop();*/
 
@@ -85,6 +87,33 @@ namespace ExampleCode
 
             /*//Hiển thị các số nguyên tố từ 2 đến 100
             DisplaysInt();*/
+
+            //5.(2)
+
+            /*//Thiết kế menu cho ứng dụng
+            AppMenu();*/
+
+            /*//Kiểm tra số nguyên tố
+            CheckNumPrime();*/
+
+            /*//Tìm ước số chung lớn nhất
+            GreatestCommonFactor();*/
+
+
+
+
+            //6
+
+            /*//thử mảng
+            TestArray();*/
+
+            /* //Thêm phần tử vào mảng
+            AddElementArr();*/
+
+
+
+
+
         }
 
         ////////////////////////////////////////////////////////////
@@ -582,6 +611,9 @@ namespace ExampleCode
         /// Bai 5 : Câu lệnh lặp (1), Câu lệnh lặp (2)
         /// </summary>
 
+        //Câu lệnh lặp (1)
+
+
         //làm lại bài tập đếm ngày bằng tuổi có vòng lặp
         static void convertAgeWithLoop()
         {
@@ -721,8 +753,195 @@ namespace ExampleCode
         }
 
 
+        //Câu lệnh lặp (2)
 
 
+        //Thiết kế menu cho ứng dụng
+        static void AppMenu()
+        {
+            Console.WriteLine("Menu");
+            Console.WriteLine("1. Draw the triangle");
+            Console.WriteLine("2. Draw the square");
+            Console.WriteLine("3. Draw the rectangle");
+            Console.WriteLine("0. Exit");
+            Console.WriteLine("Enter your choice: ");
+            int choice = Int32.Parse(Console.ReadLine());
+
+            while (choice != 0)
+            {
+                switch (choice)
+                {
+                    case 1:
+                        Console.WriteLine("Draw the triangle");
+                        Console.WriteLine("******");
+                        Console.WriteLine("*****");
+                        Console.WriteLine("****");
+                        Console.WriteLine("***");
+                        Console.WriteLine("**");
+                        Console.WriteLine("*");
+                        break;
+                    case 2:
+                        Console.WriteLine("Draw the square");
+                        Console.WriteLine("* * * * * *");
+                        Console.WriteLine("* * * * * *");
+                        Console.WriteLine("* * * * * *");
+                        Console.WriteLine("* * * * * *");
+                        Console.WriteLine("* * * * * *");
+                        Console.WriteLine("* * * * * *");
+                        break;
+                    case 3:
+                        Console.WriteLine("Draw the rectangle");
+                        Console.WriteLine("* * * * * *");
+                        Console.WriteLine("* * * * * *");
+                        Console.WriteLine("* * * * * *");
+                        break;
+                    case 0:
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("No choice!");
+                        break;
+                }
+                break;
+            }
+        }
+
+        //Kiểm tra số nguyên tố
+        static void CheckNumPrime()
+        {
+            int number;
+            Console.Write("Nhap so: ");
+            number = Int32.Parse(Console.ReadLine());
+
+
+            if (number < 2)
+            {
+                Console.WriteLine(number + " khong phai so nguyen to");
+            }
+            else 
+            {
+                int i = 2;
+                bool check = true;
+                while (i <= Math.Sqrt(number)) 
+                {
+                    if (number % i == 0) 
+                    {
+                        check = false;
+                        break;
+                    }
+                    i++;
+                }
+                if (check)
+                {
+                    Console.WriteLine(number + " la so nguyen to");
+                }
+                else 
+                {
+                    Console.WriteLine(number + " khong phai so nguyen to");
+                }
+            }
+        }
+
+        //Tìm ước số chung lớn nhất
+        static void GreatestCommonFactor()
+        {
+            Console.WriteLine("Nhap a: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Nhap b: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            a = Math.Abs(a);
+            b = Math.Abs(b);
+
+            if (a == 0 || b == 0)
+            {
+                Console.WriteLine("Khong co uoc chung lon nhat");
+            }
+            else
+            {
+                while (a != b) 
+                {
+                    if (a > b)
+                    {
+                        a = a - b;
+                    }
+                    else
+                    {
+                        b = b - a;
+                    }
+                }
+                Console.WriteLine("Uoc chung lon nhat : " + a);
+            }
+        }
+
+        /////////////////////////////////////////////////
+        /// <summary>
+        /// Bai 6 : Mảng 1 chiều
+        /// </summary>
+
+        //thử mảng
+        static void TestArray()
+        {
+            
+            double[] myList = new double[10] {1,2,3,4,5,6,7,8,9,10};
+            foreach (int i in myList)
+            {
+                Console.WriteLine(i);
+            }
+
+            //tham chiếu
+            double[] Refer = myList;
+        }
+       
+        //Thêm phần tử vào mảng
+        static void AddElementArr()
+        {
+            int[] ArrayNum = new int[10] {11,12,13,14,15,16,17,18,19,20};
+            foreach (int i in ArrayNum)
+            {
+                int IndexAN = Array.IndexOf(ArrayNum, i);
+                Console.WriteLine("ArrayNum[{0}] = {1}",IndexAN,i);
+            }
+
+            Console.WriteLine("Hay nhap gia tri ban muon thay doi: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Hay nhap vi tri trong mang ban muon thay doi:");
+
+            int xindex = int.Parse(Console.ReadLine());
+
+            if (xindex < 0 && xindex >= ArrayNum.Length - 1)
+            {
+                Console.WriteLine("Vi tri nam ngoai mang !!");
+            }
+            else
+            {
+                ArrayNum[xindex] = x;
+            }
+
+            for (int i = 0; i < ArrayNum.Length; i++)
+            {
+                Console.WriteLine("ArrayNum[{0}] = {1}", i, ArrayNum[i]);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        //Mảng đa chiều
+        static void MultiArray()
+        {
+
+        }
 
     }
 }
