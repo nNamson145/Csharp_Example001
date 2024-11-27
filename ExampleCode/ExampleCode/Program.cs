@@ -99,17 +99,28 @@ namespace ExampleCode
             /*//Tìm ước số chung lớn nhất
             GreatestCommonFactor();*/
 
-
+            /*//Hiển thị 20 số nguyên tố đầu tiên
+            Display20Int();*/
 
 
             //6
 
+            //Mảng 1 chiều
+
             /*//thử mảng
             TestArray();*/
 
-            /* //Thêm phần tử vào mảng
-            AddElementArr();*/
+            /*//Tính tổng các phần tử của mảng
+            SumOfElement();*/
 
+            /*//Tìm giá trị trong mảng
+            FindPositionInList();*/
+
+            /*//Tìm giá trị lớn nhất trong mảng
+            LargestValue();*/
+
+            /* //Thêm phần tử vào mảng
+           AddElementArr();*/
 
 
 
@@ -874,6 +885,32 @@ namespace ExampleCode
             }
         }
 
+        //Debug ứng dụng C#
+
+        //Hiển tị 20 số nguyên tố đầu tiên
+        static void Display20Int()
+        {
+            Console.Write("So luong so nguyen to can in ra: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+
+            int count = 0;
+            for (int i = 2; i <= number; i++) 
+            {
+                for (int j = 1; j <= i; j++) 
+                {
+                    if(i % j == 0)
+                    {
+                        count++;
+                    }
+                }
+                if (count == 2)
+                {
+                    Console.WriteLine(i);
+                }
+                count = 0;
+            }
+        }
+
         /////////////////////////////////////////////////
         /// <summary>
         /// Bai 6 : Mảng 1 chiều
@@ -892,7 +929,93 @@ namespace ExampleCode
             //tham chiếu
             double[] Refer = myList;
         }
-       
+
+        //tính tổng các phần tử của mảng
+        static void SumOfElement()
+        {
+            int[] array = new int[5];
+            array[0] = 11;
+            array[1] = 22;
+            array[2] = 33;
+            array[3] = 44;
+            array[4] = 55;
+
+            foreach (int i in array)
+            {
+                Console.WriteLine( i + "+");
+            }    
+
+            int Sum = 0;
+            for (int i = 0; i < array.Length; i++) 
+            {
+                Sum += array[i];
+            }
+            Console.WriteLine(" = " + Sum);
+        }
+
+        //Tìm giá trị trong mảng
+        static void FindPositionInList()
+        {
+            string[] nameA = { "Son", "Nhi", "Duy", "Dat", "Huan", "Bao", "Khanh", "Cong", "Su" };
+
+            Console.WriteLine("Nhap ten can tim kiem: ");
+            String input_name = Console.ReadLine();
+
+            bool isFound = false;
+            for (int i = 0; i < nameA.Length; i++) 
+            {
+                if(nameA[i].Equals(input_name))
+                {
+                    Console.WriteLine("So thu tu của " + input_name + " la " + (i + 1));
+                    isFound = true;
+                    break;
+                }
+            }
+            if (!isFound)
+            {
+                Console.WriteLine("khong tim thay ten");
+            }    
+        }
+
+        //Tìm giá trị lớn nhất trong mảng
+        static void LargestValue()
+        {
+            int size;
+            int[] array;
+            do
+            {
+                Console.WriteLine("Hay nhap kich thuoc mang : ");
+                size = Int32.Parse(Console.ReadLine());
+                if (size > 20)
+                    Console.WriteLine("khong qua 20 ");
+            }
+            while (size > 20);
+            array = new int[size];
+            int i = 0;
+            while(i < array.Length)
+            {
+                Console.WriteLine("Nhap gia tri " + (i + 1) + " : ");
+                array[i] = Int32.Parse(Console.ReadLine());
+                i++;
+            }
+            for(int j = 0; j < array.Length; j++)
+            {
+                Console.WriteLine(array[j]);
+            }
+
+            int max = array[0];
+            int index = 1;
+            for(int j = 0 ; j < array.Length; j++)
+            {
+                if(array[j] > max)
+                {
+                    max = array[j];
+                    index = j + 1;
+                }
+            }
+            Console.WriteLine("Gia tri lon nhat trong array la : " + max + " tai vi tri " + index);
+        }
+
         //Thêm phần tử vào mảng
         static void AddElementArr()
         {
