@@ -125,6 +125,16 @@ namespace ExampleCode
 
 
 
+            //7
+
+            /*//Viết phương thức xoá phần tử khỏi mảng
+            DeleteElementOfArray();*/
+
+            /*//Viết phương thức đếm số lần xuất hiện của ký tự trong chuỗi
+            InputCountChar();*/
+
+
+
         }
 
         ////////////////////////////////////////////////////////////
@@ -684,18 +694,18 @@ namespace ExampleCode
             double TotalInterset = 0; // nếu ko gán giá trị nào thì sau vòng lặp (nếu vòng lặp ko chạy thì sẽ ko đưa ra biến đó là loại giá trị nào nên gây lỗi)
             for (int i = 0; i <= month; i++)
             {
-                TotalInterset = money * (IntersetRate/100/12) * month;
+                TotalInterset = money * (IntersetRate / 100 / 12) * month;
             }
 
             Console.WriteLine("Tong tien lai: " + TotalInterset /*chỗ bị lỗi nếu không gán*/);
-            
+
 
         }
 
         //Hiển thị các loại hình
         static void GeometryMenu()
         {
-            Console.WriteLine("1. Print the rectangle"); 
+            Console.WriteLine("1. Print the rectangle");
             Console.WriteLine("2. Print the square triangle (The corner is square at 4 different angles: top-left, top-right, botton-left, botton-right)\r\n");
             Console.WriteLine("3. Print isosceles triangle");
             Console.WriteLine("4. Exit");
@@ -705,7 +715,7 @@ namespace ExampleCode
             switch (Option)
             {
                 case 1:
-                    for (int i = 0;i < 3; i++)
+                    for (int i = 0; i < 3; i++)
                     {
                         for (int j = 0; j < 8; j++)
                         {
@@ -734,10 +744,10 @@ namespace ExampleCode
                         Console.WriteLine("*");
                     }
                     break;
-                case 4: 
+                case 4:
                     Console.ReadLine();
                     break;
-                    
+
             }
         }
 
@@ -746,16 +756,16 @@ namespace ExampleCode
         {
             int CheckNum = 0;
             Console.WriteLine("Danh sach so nguyen to tu 2 den 100:");
-            for (int i = 2; i <=100 ; i++)
+            for (int i = 2; i <= 100; i++)
             {
-                for(int j = 1;j <= i ; j++)
+                for (int j = 1; j <= i; j++)
                 {
                     if (i % j == 0)
                     {
                         CheckNum++;
                     }
                 }
-                if(CheckNum == 2)
+                if (CheckNum == 2)
                 {
                     Console.WriteLine(i);
                 }
@@ -829,13 +839,13 @@ namespace ExampleCode
             {
                 Console.WriteLine(number + " khong phai so nguyen to");
             }
-            else 
+            else
             {
                 int i = 2;
                 bool check = true;
-                while (i <= Math.Sqrt(number)) 
+                while (i <= Math.Sqrt(number))
                 {
-                    if (number % i == 0) 
+                    if (number % i == 0)
                     {
                         check = false;
                         break;
@@ -846,7 +856,7 @@ namespace ExampleCode
                 {
                     Console.WriteLine(number + " la so nguyen to");
                 }
-                else 
+                else
                 {
                     Console.WriteLine(number + " khong phai so nguyen to");
                 }
@@ -870,7 +880,7 @@ namespace ExampleCode
             }
             else
             {
-                while (a != b) 
+                while (a != b)
                 {
                     if (a > b)
                     {
@@ -1047,23 +1057,107 @@ namespace ExampleCode
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-        
         //Mảng đa chiều
+        ////////
+
+
+        //thử mảng
         static void MultiArray()
         {
 
+        }
+
+        //Mảng hai chiều – tạo bản đồ trò chơi MineSweeper
+
+
+
+
+
+        /////////////////////////////////////////////////
+        /// <summary>
+        /// Bai 7 : Hàm và phương thức trong C#
+        /// </summary>
+
+        //Viết phương thức xoá phần tử khỏi mảng
+        static void DeleteElementOfArray()
+        {
+
+            Console.Write("Nhap so luong phan tu cua mang: ");
+            int size = int.Parse(Console.ReadLine());
+            int[] Array = new int[size];
+            for (int i = 0; i < size; i++)
+            {
+                Console.Write("Nhap gia tri cua " + i + " : ");
+                int input = int.Parse(Console.ReadLine());
+                Array[i] = input;
+            }
+
+            int x = 0;
+            bool IscorrectValue = true;
+            do
+            {
+                Console.Write("Hay nhap phan tu can xoa trong mang: ");
+                x = int.Parse(Console.ReadLine());
+                for (int i = 0; i < Array.Length; i++)
+                {
+                    if (Array[i] == x)
+                    {
+                        Console.WriteLine(x + " Nam o vi tri " + i);
+                        IscorrectValue = false;
+                        break;
+                    }
+                }
+            }
+            while (IscorrectValue);
+
+            int[] newArray = new int[Array.Length -1];
+            int j = 0;
+
+            for (int i = 0 ; i < Array.Length; i++)
+            {
+                if ( Array[i]  == x)
+                {
+                    continue;
+                }
+                newArray[j++] = Array[i];
+            }
+
+            for (int i = 0; i < newArray.Length; i++)
+            {
+                Console.WriteLine("Vi tri " + i + " : " + newArray[i]);
+            }
+
+
+        }
+
+        // Phương thức đếm số lần xuất hiện của ký tự trong chuỗi
+
+        static void InputCountChar()
+        {
+            Console.Write("Nhap chuoi ki tu: ");
+            string allSentence = Console.ReadLine();
+
+            Console.Write("ki tu can dem trong chuoi: ");
+            char character = Console.ReadKey().KeyChar; //kí tự duy nhất().không phân biệt kí tự hoa hay thường
+            Console.WriteLine();
+
+            int Num = countchar(allSentence, character);
+
+            Console.WriteLine("So lan ki tu xuat hien trong chuoi ki tu la: " + Num);
+
+
+        }//chính
+        static int countchar(string allSentence, char character)
+        {
+            int countNum = 0;
+            for (int i = 0; i < allSentence.Length; i++)
+            {
+                if(allSentence[i] == character)
+                {
+                    countNum++;
+                }
+            }
+            return countNum;
         }
 
     }
