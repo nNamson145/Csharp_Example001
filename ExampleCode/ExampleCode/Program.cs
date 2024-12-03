@@ -142,28 +142,30 @@ namespace ExampleCode
 
             //Xây dựng lớp Fan
             FanMachine Fan1 = new FanMachine();
-            Fan1.SetProperty( 3, "Yellow", 10);
+            Fan1.TurnOn(true);
+            Fan1.SetFanProperty( FanMachine.FAST, "Yellow", 10);
             
             FanMachine Fan2 = new FanMachine();
-            Fan2.SetProperty( 2, "Blue", 5);
+            
+            Fan2.SetFanProperty( FanMachine.MEDIUM, "Blue", 5);
 
 
             if (Fan1.GetFanStat() == false)
             {
-                Console.WriteLine("Speed: " + Fan1.Speed + " Color: " + Fan1.GetColor() + " Radius: " + Fan1.GetRadius() + " Fan is off");
+                Console.WriteLine("Speed: " + Fan1.GetSpeed() + " Color: " + Fan1.GetColor() + " Radius: " + Fan1.GetRadius() + " Fan is off");
             }
             else
             {
-                Console.WriteLine("Speed: " + Fan1.Speed + " Color: " + Fan1.GetColor() + " Radius: " + Fan1.GetRadius() + " Fan is on");
+                Console.WriteLine("Speed: " + Fan1.GetSpeed() + " Color: " + Fan1.GetColor() + " Radius: " + Fan1.GetRadius() + " Fan is on");
             }
 
             if (Fan2.GetFanStat() == false)
             {
-                Console.WriteLine("Speed: " + Fan2.Speed + " Color: " + Fan2.GetColor() + " Radius: " + Fan2.GetRadius() + " Fan is off");
+                Console.WriteLine("Speed: " + Fan2.GetSpeed() + " Color: " + Fan2.GetColor() + " Radius: " + Fan2.GetRadius() + " Fan is off");
             }
             else
             {
-                Console.WriteLine("Speed: " + Fan2.Speed + " Color: " + Fan2.GetColor() + " Radius: " + Fan2.GetRadius() + " Fan is on");
+                Console.WriteLine("Speed: " + Fan2.GetSpeed() + " Color: " + Fan2.GetColor() + " Radius: " + Fan2.GetRadius() + " Fan is on");
             }
         }
 

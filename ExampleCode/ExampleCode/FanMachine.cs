@@ -8,9 +8,11 @@ namespace ExampleCode
 {
     internal class FanMachine
     {
-        private bool FanStat = false;
-        public int Speed = 1;
-        private int radius = 5;
+        public const int SLOW = 1, MEDIUM = 2, FAST = 3;
+        
+        private bool fanStat = false;
+        private int speed = SLOW;
+        private double radius = 5;
         private string Color = "blue";
 
         public FanMachine()
@@ -21,40 +23,53 @@ namespace ExampleCode
         public void TurnOn(bool FanOn)
         {
             FanOn = true;
-            FanStat = FanOn;
+            fanStat = FanOn;
         }
 
-        public void SetProperty(int Sp, string Cl, int Rad)
+        public void SetFanProperty(int? Sp = null, string Cl = null, double? Rad = null, bool? On = null)
         {
-            switch (Sp)
+            if (Sp.HasValue)
             {
-                case 1:
-                    this.Speed = 1;
-                    break;
-                case 2:
-                    this.Speed = 2;
-                    break;
-                case 3:
-                    this.Speed = 3;
-                    break;
+                switch (Sp)
+                {
+                    case SLOW:
+                        this.speed = SLOW;
+                        break;
+                    case MEDIUM:
+                        this.speed = MEDIUM;
+                        break;
+                    case FAST:
+                        this.speed = FAST;
+                        break;
+                }
             }
 
-            this.Color = Cl;
+            if (Cl != null)
+            {
+                this.Color = Cl;
+            }
 
-            this.radius = Rad;
+            if (Rad.HasValue)
+            {
+                this.radius = Rad.Value;
+            }
         }
 
-        public int GetRadius()
+        public double GetRadius()
         {
             return this.radius;
         }
         public bool GetFanStat()
         {
-            return this.FanStat;
+            return this.fanStat;
         }
         public string GetColor()
         {
             return this.Color;
+        }
+        public int GetSpeed()
+        {
+            return this.speed;
         }
     }
 }
