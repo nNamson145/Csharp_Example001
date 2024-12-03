@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -122,6 +123,10 @@ namespace ExampleCode
             /* //Thêm phần tử vào mảng
            AddElementArr();*/
 
+            //Mảng đa chiều
+
+            /*//Tìm phần tử lớn nhất trong mảng hai chiều
+            FindMaxValueMultipleArray();*/
 
 
 
@@ -132,6 +137,18 @@ namespace ExampleCode
 
             /*//Viết phương thức đếm số lần xuất hiện của ký tự trong chuỗi
             InputCountChar();*/
+
+            //8
+
+            //Xây dựng lớp Fan
+            FanMachine Fan1 = new FanMachine();
+            Fan1.TurnOn(true);
+            Fan1.SetSpeed(3);
+            Fan1.SetColor("Yellow");
+            Fan1.SetRadius(10);
+            
+            FanMachine Fan2 = new FanMachine();
+            Fan2.SetSpeed(2);
 
 
 
@@ -1068,10 +1085,80 @@ namespace ExampleCode
         }
 
         //Mảng hai chiều – tạo bản đồ trò chơi MineSweeper
+        static void MinreSweeper()
+        {
+            string[,] map = { { "*" } };
+            Console.WriteLine("*");
 
+        }
 
+        //Tìm phần tử lớn nhất trong mảng hai chiều
+        static void FindMaxValueMultipleArray()
+        {
+            int[,] matrixArray = new int[4,4];
+            Random rand = new Random();
+            int maxValue = matrixArray[0,0];
+            for(int row = 0;  row < matrixArray.GetLength(0); row++)
+            {
+                for (int column = 0; column < matrixArray.GetLength(1); column++)
+                {
+                    matrixArray[row, column] = rand.Next(1,100); 
+                }
+            }
+            for (int row = 0; row < matrixArray.GetLength(0); row++)
+            {
+                Console.WriteLine("\n");
+                for (int column = 0; column < matrixArray.GetLength(1); column++)
+                {
+                    Console.Write(matrixArray[row, column] + " ");
+                }
+            }
+            Console.WriteLine("\n");
+            for(int row = 0;row < matrixArray.GetLength(0); row++)
+            {
+                for(int column = 0;column < matrixArray.GetLength(1); column++)
+                {
+                    if(maxValue < matrixArray[row, column])
+                    {
+                        maxValue = matrixArray[row, column];
+                    }
+                }
+            }
+            Console.WriteLine("Gia tri lon nhat la: " + maxValue);
+        }
 
+        //Mảng hai chiều - tính tổng các số ở đường chéo chính của ma trận vuông
+        static void TotalDiagonalSquareMatrix()
+        {
+            int[,] matrixSquare = new int[4, 4];
+            Random rand = new Random();
+            int maxValue = matrixSquare[0, 0];
+            for (int row = 0; row < matrixSquare.GetLength(0); row++)
+            {
+                for (int column = 0; column < matrixSquare.GetLength(1); column++)
+                {
+                    matrixSquare[row, column] = rand.Next(1, 10);
+                }
+            }
+            for (int row = 0; row < matrixSquare.GetLength(0); row++)
+            {
+                Console.WriteLine("\n");
+                for (int column = 0; column < matrixSquare.GetLength(1); column++)
+                {
+                    Console.Write(matrixSquare[row, column] + " ");
+                }
+            }
+            Console.WriteLine("\n");
+            for (int row = 0; row < matrixSquare.GetLength(0); row++)
+            {
+                Console.WriteLine("\n");
+                for (int column = 0; column < matrixSquare.GetLength(1); column++)
+                {
+                    Console.Write(matrixSquare[row, column] + " ");
+                }
+            }
 
+        }
 
         /////////////////////////////////////////////////
         /// <summary>
