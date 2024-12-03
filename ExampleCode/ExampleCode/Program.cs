@@ -142,16 +142,29 @@ namespace ExampleCode
 
             //Xây dựng lớp Fan
             FanMachine Fan1 = new FanMachine();
-            Fan1.TurnOn(true);
-            Fan1.SetSpeed(3);
-            Fan1.SetColor("Yellow");
-            Fan1.SetRadius(10);
+            Fan1.SetProperty( 3, "Yellow", 10);
             
             FanMachine Fan2 = new FanMachine();
-            Fan2.SetSpeed(2);
+            Fan2.SetProperty( 2, "Blue", 5);
 
 
+            if (Fan1.GetFanStat() == false)
+            {
+                Console.WriteLine("Speed: " + Fan1.Speed + " Color: " + Fan1.GetColor() + " Radius: " + Fan1.GetRadius() + " Fan is off");
+            }
+            else
+            {
+                Console.WriteLine("Speed: " + Fan1.Speed + " Color: " + Fan1.GetColor() + " Radius: " + Fan1.GetRadius() + " Fan is on");
+            }
 
+            if (Fan2.GetFanStat() == false)
+            {
+                Console.WriteLine("Speed: " + Fan2.Speed + " Color: " + Fan2.GetColor() + " Radius: " + Fan2.GetRadius() + " Fan is off");
+            }
+            else
+            {
+                Console.WriteLine("Speed: " + Fan2.Speed + " Color: " + Fan2.GetColor() + " Radius: " + Fan2.GetRadius() + " Fan is on");
+            }
         }
 
         ////////////////////////////////////////////////////////////

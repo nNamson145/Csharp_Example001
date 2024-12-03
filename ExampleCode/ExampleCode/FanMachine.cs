@@ -9,7 +9,7 @@ namespace ExampleCode
     internal class FanMachine
     {
         private bool FanStat = false;
-        int Speed = 1;
+        public int Speed = 1;
         private int radius = 5;
         private string Color = "blue";
 
@@ -24,28 +24,37 @@ namespace ExampleCode
             FanStat = FanOn;
         }
 
-        public void SetSpeed(int Sp)
+        public void SetProperty(int Sp, string Cl, int Rad)
         {
-            Speed = Sp;
-        }
-
-        public void SetColor(string Cl)
-        {
-            Color = Cl;
-        }
-
-        public void SetRadius(int Rad)
-        {
-            radius = Rad;
-        }
-
-        public static void FanInfo(bool FanState, int Speed, int radius, string Color)
-        {
-            if(FanState = false)
+            switch (Sp)
             {
-                Console.WriteLine("Speed: " + Speed + " Color: " + Color + " Radius: " + radius + " Fan is off");
+                case 1:
+                    this.Speed = 1;
+                    break;
+                case 2:
+                    this.Speed = 2;
+                    break;
+                case 3:
+                    this.Speed = 3;
+                    break;
             }
-            Console.WriteLine("Speed: " + Speed + " Color: " + Color + " Radius: " + radius + " Fan is on");
+
+            this.Color = Cl;
+
+            this.radius = Rad;
+        }
+
+        public int GetRadius()
+        {
+            return this.radius;
+        }
+        public bool GetFanStat()
+        {
+            return this.FanStat;
+        }
+        public string GetColor()
+        {
+            return this.Color;
         }
     }
 }
