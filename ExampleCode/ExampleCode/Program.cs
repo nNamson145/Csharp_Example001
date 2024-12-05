@@ -140,7 +140,7 @@ namespace ExampleCode
 
             //8
 
-            //Xây dựng lớp Fan
+            /*//Xây dựng lớp Fan
             FanMachine Fan1 = new FanMachine();
             Fan1.TurnOn(true);
             Fan1.SetFanProperty( FanMachine.FAST, "Yellow", 10);
@@ -166,8 +166,33 @@ namespace ExampleCode
             else
             {
                 Console.WriteLine("Speed: " + Fan2.GetSpeed() + " Color: " + Fan2.GetColor() + " Radius: " + Fan2.GetRadius() + " Fan is on");
+            }*/
+
+            /*//Xây dựng lớp StopWatch
+            int n = 50000;
+            int[] array = new int[n];
+            Random randomValue = new Random();
+            for (int i = 0; i < n; i++)
+            {
+                array[i] = randomValue.Next(1,100000);
             }
+
+            StopWatch Watch = new StopWatch();
+
+            Watch.Start();
+
+            SelectionSort(array);
+
+            Watch.Stop();
+
+            Console.WriteLine("Thoi gian bd: " + Watch.StartTime());
+            Console.WriteLine("Thoi gian kt: " + Watch.EndTime());
+            Console.WriteLine("Thoi gian thuc thi: " + Watch.GetElapsedTime() + " giay");*/
+            
+
+
         }
+
 
         ////////////////////////////////////////////////////////////
         /// <summary>
@@ -1233,7 +1258,6 @@ namespace ExampleCode
         }
 
         // Phương thức đếm số lần xuất hiện của ký tự trong chuỗi
-
         static void InputCountChar()
         {
             Console.Write("Nhap chuoi ki tu: ");
@@ -1262,5 +1286,31 @@ namespace ExampleCode
             return countNum;
         }
 
+
+        /// <summary>
+        /// Bai 8 : Lớp và hướng đối tượng
+        /// </summary>
+
+        //Thuật toán selection sort
+        static void SelectionSort(int[] array)
+        {
+            int n = array.Length;
+            for (int i = 0; i < n - 1; i++)
+            {
+                int minIndex = i;
+                for (int j = i + 1; j < n; j++)
+                {
+                    if (array[j] < array[minIndex])
+                    {
+                        minIndex = j;
+                    }
+                }
+
+                //Hoán đổi giá trị c = a, a = b, b = c 
+                int temporary = array[minIndex];
+                array[minIndex] = array[i];
+                array[i] = temporary;
+            }
+        }
     }
 }

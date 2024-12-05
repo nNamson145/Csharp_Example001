@@ -26,7 +26,6 @@ namespace ExampleCode
 
 
 
-
         public void Start()
         {
             startTime = DateTime.Now;
@@ -34,8 +33,15 @@ namespace ExampleCode
 
         public void Stop() 
         {
-             endTime = DateTime.Now;
+            endTime = DateTime.Now;
         }
+
+        public double GetElapsedTime()
+        {
+            return (endTime - startTime).TotalSeconds;/*.TotalMilliseconds;//chuyển đổi Timespan thành số milisecond*/
+        }
+
+
 
     }
 }
