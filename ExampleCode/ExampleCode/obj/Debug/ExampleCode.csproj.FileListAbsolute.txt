@@ -12,3 +12,10 @@ D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.cs
 D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.csproj.CoreCompileInputs.cache
 D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.exe
 D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.pdb
+D:\GitHubLibrary\Csharp_Example\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.csproj.AssemblyReference.cache
+D:\GitHubLibrary\Csharp_Example\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.csproj.CoreCompileInputs.cache
+D:\GitHubLibrary\Csharp_Example\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.exe
+D:\GitHubLibrary\Csharp_Example\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.pdb
+D:\GitHubLibrary\Csharp_Example\Csharp_Example001\ExampleCode\ExampleCode\bin\Debug\ExampleCode.exe.config
+D:\GitHubLibrary\Csharp_Example\Csharp_Example001\ExampleCode\ExampleCode\bin\Debug\ExampleCode.exe
+D:\GitHubLibrary\Csharp_Example\Csharp_Example001\ExampleCode\ExampleCode\bin\Debug\ExampleCode.pdb

@@ -140,15 +140,14 @@ namespace ExampleCode
 
             //8
 
-<<<<<<< HEAD
            /* //Xây dựng class animal
             TheCat Tom = new TheCat("10kg", "1.15", "Tom");
             Tom.PrintInfo();*/
 
             /*//Xây dựng lớp Fan
-=======
+
             //Xây dựng lớp Fan
->>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
+
             FanMachine Fan1 = new FanMachine();
             Fan1.TurnOn(true);
             Fan1.SetFanProperty( FanMachine.FAST, "Yellow", 10);
@@ -175,7 +174,6 @@ namespace ExampleCode
             {
                 Console.WriteLine("Speed: " + Fan2.GetSpeed() + " Color: " + Fan2.GetColor() + " Radius: " + Fan2.GetRadius() + " Fan is on");
             }
-<<<<<<< HEAD
 
             StopWatch Watch = new StopWatch();
 
@@ -191,18 +189,15 @@ namespace ExampleCode
             
             //9
 
-            //Lớp Circle và Cylinder
+            /*//Lớp Circle và Cylinder
             CircleParrent Circle = new CircleParrent(10,"Black");
             Console.WriteLine("ban kinh: " +  Circle.GetRadius() + " mau: " + Circle.GetColor());
             Circle.CalculateArea();
 
             CylinderChildOfCircle cylinder = new CylinderChildOfCircle(20);
-            cylinder.CalculateVolume();
-
-            }
-=======
+            cylinder.CalculateVolume();*/
+            
         }
->>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
 
         ////////////////////////////////////////////////////////////
         /// <summary>

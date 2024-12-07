@@ -20,6 +20,6 @@ namespace ExampleCode
             this.radius = rad;
         }
 
-        public 
+        
     }
 }
