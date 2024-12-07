@@ -189,9 +189,17 @@ namespace ExampleCode
             Console.WriteLine("Thoi gian kt: " + Watch.EndTime());
             Console.WriteLine("Thoi gian thuc thi: " + Watch.GetElapsedTime() + " giay");*/
             
+            //9
 
+            //Lớp Circle và Cylinder
+            CircleParrent Circle = new CircleParrent(10,"Black");
+            Console.WriteLine("ban kinh: " +  Circle.GetRadius() + " mau: " + Circle.GetColor());
+            Circle.CalculateArea();
 
-        }
+            CylinderChildOfCircle cylinder = new CylinderChildOfCircle(20);
+            cylinder.CalculateVolume();
+
+            }
 
 
         ////////////////////////////////////////////////////////////

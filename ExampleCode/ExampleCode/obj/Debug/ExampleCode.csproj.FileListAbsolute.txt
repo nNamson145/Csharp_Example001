@@ -5,3 +5,10 @@ D:\GitHubLibrary\Csharp_Example\ExampleCode\ExampleCode\obj\Debug\ExampleCode.cs
 D:\GitHubLibrary\Csharp_Example\ExampleCode\ExampleCode\obj\Debug\ExampleCode.csproj.CoreCompileInputs.cache
 D:\GitHubLibrary\Csharp_Example\ExampleCode\ExampleCode\obj\Debug\ExampleCode.exe
 D:\GitHubLibrary\Csharp_Example\ExampleCode\ExampleCode\obj\Debug\ExampleCode.pdb
+D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\bin\Debug\ExampleCode.exe.config
+D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\bin\Debug\ExampleCode.exe
+D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\bin\Debug\ExampleCode.pdb
+D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.csproj.AssemblyReference.cache
+D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.csproj.CoreCompileInputs.cache
+D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.exe
+D:\UnityLearn\Csharp_Example001\ExampleCode\ExampleCode\obj\Debug\ExampleCode.pdb
