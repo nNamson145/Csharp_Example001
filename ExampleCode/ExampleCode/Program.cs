@@ -140,9 +140,9 @@ namespace ExampleCode
 
             //8
 
-           /* //Xây dựng class animal
-            TheCat Tom = new TheCat("10kg", "1.15", "Tom");
-            Tom.PrintInfo();*/
+            /* //Xây dựng class animal
+             TheCat Tom = new TheCat("10kg", "1.15", "Tom");
+             Tom.PrintInfo();*/
 
             /*//Xây dựng lớp Fan
 
@@ -186,7 +186,7 @@ namespace ExampleCode
             Console.WriteLine("Thoi gian bd: " + Watch.StartTime());
             Console.WriteLine("Thoi gian kt: " + Watch.EndTime());
             Console.WriteLine("Thoi gian thuc thi: " + Watch.GetElapsedTime() + " giay");*/
-            
+
             //9
 
             /*//Lớp Circle và Cylinder
@@ -196,7 +196,20 @@ namespace ExampleCode
 
             CylinderChildOfCircle cylinder = new CylinderChildOfCircle(20);
             cylinder.CalculateVolume();*/
-            
+
+            /*// Point2D & Point3D
+            //Point2D
+            Point2D point2d = new Point2D(11, 14);
+            Console.WriteLine(point2d.ToString());
+            point2d.SetXY(100,140);
+            Console.WriteLine(string.Join(", ", point2d.GetXY()));
+
+            //Point3D
+            Point3D point3d = new Point3D(37);
+            point3d.SetXY(1, 2);
+            Console.WriteLine(point3d.ToString());
+            point3d.SetXY(17, 27);
+            Console.WriteLine(string.Join(", ", point3d.GetXYZ()));*/
         }
 
         ////////////////////////////////////////////////////////////

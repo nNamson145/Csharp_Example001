@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:ExampleCode\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\FanMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:ExampleCode\\FanMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\point2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\point2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\StopWatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:ExampleCode\\StopWatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\point3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\point3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Circle.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Circle.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\Circle.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Circle.cs*",
-              "RelativeToolTip": "ExampleCode\\Circle.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Point3D.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Point3D.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\Point3D.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Point3D.cs",
+              "RelativeToolTip": "ExampleCode\\Point3D.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA8wCkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:05:21.831Z",
+              "WhenOpened": "2024-12-07T11:28:53.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs",
               "RelativeDocumentMoniker": "ExampleCode\\Program.cs",
               "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs",
               "RelativeToolTip": "ExampleCode\\Program.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAADwv74AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAwB0FAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T10:53:43.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FanMachine.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\FanMachine.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\FanMachine.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\FanMachine.cs",
-              "RelativeToolTip": "ExampleCode\\FanMachine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Point2D.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Point2D.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\Point2D.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Point2D.cs",
+              "RelativeToolTip": "ExampleCode\\Point2D.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T10:53:43.286Z",
+              "WhenOpened": "2024-12-07T11:09:33.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StopWatch.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\StopWatch.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\StopWatch.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\StopWatch.cs",
-              "RelativeToolTip": "ExampleCode\\StopWatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Title": "Circle.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Circle.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\Circle.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Circle.cs",
+              "RelativeToolTip": "ExampleCode\\Circle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T10:53:43.29Z"
+              "WhenOpened": "2024-12-07T11:05:21.831Z",
+              "EditorCaption": ""
             }
           ]
         }
