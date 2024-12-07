@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "D:\\UnityLearn\\Csharp_Example001\\ExampleCode\\",
   "Documents": [
     {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\UnityLearn\\Csharp_Example001\\ExampleCode\\examplecode\\fanmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\fanmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -13,6 +14,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\examplecode\\examplecode\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\ExampleCode\\examplecode\\fanmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\fanmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\examplecode\\examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -20,6 +25,7 @@
 >>>>>>> Stashed changes
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\UnityLearn\\Csharp_Example001\\ExampleCode\\examplecode\\stopwatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\stopwatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,6 +40,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\unitylearn\\csharp_example001\\examplecode\\examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\examplecode\\examplecode\\stopwatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\stopwatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
     }
   ],
   "DocumentGroupContainers": [
@@ -43,6 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
           "SelectedChildIndex": 3,
           "Children": [
@@ -55,12 +66,26 @@
               "ToolTip": "D:\\UnityLearn\\Csharp_Example001\\ExampleCode\\ExampleCode\\CircleParrent.cs",
               "RelativeToolTip": "ExampleCode\\CircleParrent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+=======
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StopWatch.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\ExampleCode\\ExampleCode\\StopWatch.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\StopWatch.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\ExampleCode\\ExampleCode\\StopWatch.cs",
+              "RelativeToolTip": "ExampleCode\\StopWatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAkAAAAAAAAAA==",
+>>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T03:04:13.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "CylinderChildOfCircle.cs",
               "DocumentMoniker": "D:\\UnityLearn\\Csharp_Example001\\ExampleCode\\ExampleCode\\CylinderChildOfCircle.cs",
@@ -68,6 +93,15 @@
               "ToolTip": "D:\\UnityLearn\\Csharp_Example001\\ExampleCode\\ExampleCode\\CylinderChildOfCircle.cs",
               "RelativeToolTip": "ExampleCode\\CylinderChildOfCircle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAuAAAAAAAAAA==",
+=======
+              "DocumentIndex": 0,
+              "Title": "FanMachine.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\ExampleCode\\ExampleCode\\FanMachine.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\FanMachine.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\ExampleCode\\ExampleCode\\FanMachine.cs",
+              "RelativeToolTip": "ExampleCode\\FanMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAVAAAAAAAAAA==",
+>>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T03:15:55.073Z",
 =======
@@ -90,6 +124,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "Shape.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\ExampleCode\\ExampleCode\\Shape.cs",
               "RelativeDocumentMoniker": "ExampleCode\\Shape.cs",
@@ -135,9 +170,12 @@
 =======
               "DocumentIndex": 2,
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\UnityLearn\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs",
               "RelativeDocumentMoniker": "ExampleCode\\Program.cs",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
               "ToolTip": "D:\\UnityLearn\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs",
               "RelativeToolTip": "ExampleCode\\Program.cs",
@@ -147,6 +185,11 @@
               "RelativeToolTip": "ExampleCode\\Program.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAADwv4sAAAAAAAAAAAAAAA==",
 >>>>>>> Stashed changes
+=======
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\ExampleCode\\ExampleCode\\Program.cs",
+              "RelativeToolTip": "ExampleCode\\Program.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAgwJQAAAAMAAAAAAAAAA==",
+>>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:35:58.928Z",
               "EditorCaption": ""

@@ -140,11 +140,15 @@ namespace ExampleCode
 
             //8
 
+<<<<<<< HEAD
            /* //Xây dựng class animal
             TheCat Tom = new TheCat("10kg", "1.15", "Tom");
             Tom.PrintInfo();*/
 
             /*//Xây dựng lớp Fan
+=======
+            //Xây dựng lớp Fan
+>>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
             FanMachine Fan1 = new FanMachine();
             Fan1.TurnOn(true);
             Fan1.SetFanProperty( FanMachine.FAST, "Yellow", 10);
@@ -170,16 +174,8 @@ namespace ExampleCode
             else
             {
                 Console.WriteLine("Speed: " + Fan2.GetSpeed() + " Color: " + Fan2.GetColor() + " Radius: " + Fan2.GetRadius() + " Fan is on");
-            }*/
-
-            /*//Xây dựng lớp StopWatch
-            int n = 50000;
-            int[] array = new int[n];
-            Random randomValue = new Random();
-            for (int i = 0; i < n; i++)
-            {
-                array[i] = randomValue.Next(1,100000);
             }
+<<<<<<< HEAD
 
             StopWatch Watch = new StopWatch();
 
@@ -204,7 +200,9 @@ namespace ExampleCode
             cylinder.CalculateVolume();
 
             }
-
+=======
+        }
+>>>>>>> parent of 93590b6 (Xây dựng lớp StopWatch)
 
         ////////////////////////////////////////////////////////////
         /// <summary>
@@ -1270,6 +1268,7 @@ namespace ExampleCode
         }
 
         // Phương thức đếm số lần xuất hiện của ký tự trong chuỗi
+
         static void InputCountChar()
         {
             Console.Write("Nhap chuoi ki tu: ");
@@ -1298,32 +1297,6 @@ namespace ExampleCode
             return countNum;
         }
 
-
-        /// <summary>
-        /// Bai 8 : Lớp và hướng đối tượng
-        /// </summary>
-
-        //Thuật toán selection sort
-        static void SelectionSort(int[] array)
-        {
-            int n = array.Length;
-            for (int i = 0; i < n - 1; i++)
-            {
-                int minIndex = i;
-                for (int j = i + 1; j < n; j++)
-                {
-                    if (array[j] < array[minIndex])
-                    {
-                        minIndex = j;
-                    }
-                }
-
-                //Hoán đổi giá trị c = a, a = b, b = c 
-                int temporary = array[minIndex];
-                array[minIndex] = array[i];
-                array[i] = temporary;
-            }
-        }
     }
 }
 
