@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="CircleParrent.cs" />
     <Compile Include="CylinderChildOfCircle.cs" />
+=======
+    <Compile Include="Circle.cs" />
+>>>>>>> Stashed changes
     <Compile Include="FanMachine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shape.cs" />
     <Compile Include="StopWatch.cs" />
   </ItemGroup>
   <ItemGroup>

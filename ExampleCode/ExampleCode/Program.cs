@@ -140,6 +140,10 @@ namespace ExampleCode
 
             //8
 
+           /* //Xây dựng class animal
+            TheCat Tom = new TheCat("10kg", "1.15", "Tom");
+            Tom.PrintInfo();*/
+
             /*//Xây dựng lớp Fan
             FanMachine Fan1 = new FanMachine();
             Fan1.TurnOn(true);
@@ -1321,4 +1325,34 @@ namespace ExampleCode
             }
         }
     }
+}
+
+
+//Xây dựng class animal
+public abstract class Animal
+{
+    protected string weight;
+    protected string height;
+
+    public Animal(string wei, string hei)
+    {
+        weight = wei;
+        height = hei;
+    }
+    public abstract void PrintInfo();
+}
+
+class TheCat : Animal
+{
+    private string name;
+    public TheCat(string weight, string height, string name):base(weight, height)
+    {
+        this.name = name;   
+    }
+
+    public override void PrintInfo()
+    {
+        Console.WriteLine("Wei: " + this.weight +" Hei: " + this.height + " Name: " + this.name);
+    }
+
 }
