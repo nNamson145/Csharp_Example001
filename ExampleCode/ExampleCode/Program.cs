@@ -214,8 +214,8 @@ namespace ExampleCode
 
             //Abstract và Interface
 
-            //Triển khai interface ‘Resizeable’ cho các lớp hình họcAssignment
-            /*Random rd = new Random();
+            /* //Triển khai interface ‘Resizeable’ cho các lớp hình học
+            Random rd = new Random();
             IShape[] ArrayShape = new IShape[3];
 
             for (int i = 0; i <= ArrayShape.Length; i++)
@@ -233,7 +233,7 @@ namespace ExampleCode
                         break;
                 }
             }
-            
+
 
             foreach (var shape in ArrayShape)
             {
@@ -242,7 +242,7 @@ namespace ExampleCode
 
                 if (shape is InterfaceResizeable resizeable)
                 {
-                    
+
                     double percent = rd.Next(1, 101);
                     resizeable.Resize(percent);
 
@@ -255,6 +255,22 @@ namespace ExampleCode
 
             }*/
 
+            /*//Triển khai interface ‘IColorable’ cho các lớp hình học
+            IShape[] ArrayShape = new IShape[]
+            {
+                new ICircle(10),
+                new ISquare(20),
+                new IRectangle(10,5)
+            };
+            foreach (var shape in ArrayShape)
+            {
+                if (shape is InterfaceColorable Color)
+                {
+                    Color.HowToColor();
+                }
+                Console.WriteLine(shape.GetType().Name + " Area: " + shape.getArea());
+                Console.WriteLine("==========================");
+            }*/
 
 
         }

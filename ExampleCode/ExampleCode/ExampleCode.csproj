@@ -48,6 +48,7 @@
     <Compile Include="Circle.cs" />
     <Compile Include="FanMachine.cs" />
     <Compile Include="IntefaceTask\ICircle.cs" />
+    <Compile Include="IntefaceTask\InterfaceColorable.cs" />
     <Compile Include="IntefaceTask\InterfaceResizeable.cs" />
     <Compile Include="IntefaceTask\IRectangle.cs" />
     <Compile Include="IntefaceTask\IShape.cs" />

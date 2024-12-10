@@ -49,18 +49,11 @@ namespace ExampleCode.IntefaceTask
             return "A Circle with radius="
                     + getRadius()
                     + ", which is a subclass of "
-                    + base.ToString()
-                    + " Resize: "
-                    + GetResize();
-
+                    + base.ToString();
         }
         public void Resize(double percent)
         {
             radius *= percent;
-        }
-        public double GetResize()
-        {
-            return radius;
         }
     }
 }

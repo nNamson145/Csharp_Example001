@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExampleCode.IntefaceTask
 {
-    internal class ISquare : IRectangle, InterfaceResizeable
+    internal class ISquare : IRectangle, InterfaceResizeable, InterfaceColorable
     {
         double ResizeSquare;
 
@@ -52,9 +52,12 @@ namespace ExampleCode.IntefaceTask
             return "A Square with side="
                     + getSide()
                     + ", which is a subclass of "
-                    + base.ToString()
-                    + " Resize : "
-                    + GetResize();
+                    + base.ToString();
+        }
+
+        public void HowToColor()
+        {
+            Console.WriteLine("Square Color is full");
         }
 
         public void Resize(double percent)

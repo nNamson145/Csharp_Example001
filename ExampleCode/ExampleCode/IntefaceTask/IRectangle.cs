@@ -52,6 +52,8 @@ namespace ExampleCode.IntefaceTask
             return width * this.length;
         }
 
+        
+
         public double getPerimeter()
         {
             return 2 * (width + this.length);
@@ -64,20 +66,13 @@ namespace ExampleCode.IntefaceTask
                     + " and length="
                     + getLength()
                     + ", which is a subclass of "
-                    + base.ToString()
-                    + " Resize: "
-                    + GetResize();
+                    + base.ToString();
         }
 
         public void Resize(double percent)
         {
             this.width *= (1 + percent/100);
             this.length *= (1 + percent/100);
-        }
-        public double GetResize()
-        {
-            return this.width;
-            return this.length;
         }
     }
 }

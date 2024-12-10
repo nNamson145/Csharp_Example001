@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExampleCode.IntefaceTask
 {
-    public abstract class IShape
+    public abstract class IShape //: InterfaceColorable
     {
         private string color = "green";
         private bool filled = true;
@@ -50,5 +50,10 @@ namespace ExampleCode.IntefaceTask
                     + " and "
                     + (isFilled() ? "filled" : "not filled");
         }
+
+        /*public void HowToColor()
+        {
+            
+        }*/
     }
 }
