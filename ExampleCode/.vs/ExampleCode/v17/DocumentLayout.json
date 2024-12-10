@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:ExampleCode\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\point2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\point2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\intefacetask\\icircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\icircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\point3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\point3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\intefacetask\\interfaceresizeable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\interfaceresizeable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\intefacetask\\isquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\isquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\intefacetask\\irectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\irectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\intefacetask\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Point3D.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Point3D.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\Point3D.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Point3D.cs",
-              "RelativeToolTip": "ExampleCode\\Point3D.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA8wCkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:28:53.278Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -49,35 +44,74 @@
               "RelativeDocumentMoniker": "ExampleCode\\Program.cs",
               "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs",
               "RelativeToolTip": "ExampleCode\\Program.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAwB0FAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAlwP8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T10:53:43.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Point2D.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Point2D.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\Point2D.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Point2D.cs",
-              "RelativeToolTip": "ExampleCode\\Point2D.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowDwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InterfaceResizeable.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\InterfaceResizeable.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\InterfaceResizeable.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\InterfaceResizeable.cs",
+              "RelativeToolTip": "ExampleCode\\IntefaceTask\\InterfaceResizeable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:09:33.521Z",
+              "WhenOpened": "2024-12-07T14:27:51.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IShape.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\IShape.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\IShape.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\IShape.cs",
+              "RelativeToolTip": "ExampleCode\\IntefaceTask\\IShape.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:02:24.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRectangle.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\IRectangle.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\IRectangle.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\IRectangle.cs",
+              "RelativeToolTip": "ExampleCode\\IntefaceTask\\IRectangle.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:04:47.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Circle.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Circle.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\Circle.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Circle.cs",
-              "RelativeToolTip": "ExampleCode\\Circle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "ISquare.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\ISquare.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\ISquare.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\ISquare.cs",
+              "RelativeToolTip": "ExampleCode\\IntefaceTask\\ISquare.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:05:21.831Z",
+              "WhenOpened": "2024-12-07T14:04:21.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICircle.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\ICircle.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\ICircle.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\ICircle.cs",
+              "RelativeToolTip": "ExampleCode\\IntefaceTask\\ICircle.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:04:36.336Z",
               "EditorCaption": ""
             }
           ]

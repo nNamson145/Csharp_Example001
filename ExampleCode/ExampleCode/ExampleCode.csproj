@@ -47,6 +47,11 @@
     <Compile Include="CylinderChildOfCircle.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="FanMachine.cs" />
+    <Compile Include="IntefaceTask\ICircle.cs" />
+    <Compile Include="IntefaceTask\InterfaceResizeable.cs" />
+    <Compile Include="IntefaceTask\IRectangle.cs" />
+    <Compile Include="IntefaceTask\IShape.cs" />
+    <Compile Include="IntefaceTask\ISquare.cs" />
     <Compile Include="Point2D.cs" />
     <Compile Include="Point3D.cs" />
     <Compile Include="Program.cs" />

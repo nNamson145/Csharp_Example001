@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExampleCode.IntefaceTask;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -210,6 +211,52 @@ namespace ExampleCode
             Console.WriteLine(point3d.ToString());
             point3d.SetXY(17, 27);
             Console.WriteLine(string.Join(", ", point3d.GetXYZ()));*/
+
+            //Abstract và Interface
+
+            //Triển khai interface ‘Resizeable’ cho các lớp hình họcAssignment
+            /*Random rd = new Random();
+            IShape[] ArrayShape = new IShape[3];
+
+            for (int i = 0; i <= ArrayShape.Length; i++)
+            {
+                switch (i)
+                {
+                    case 0:
+                        ArrayShape[i] = new IRectangle(rd.Next(1, 11), rd.Next(1, 11));
+                        break;
+                    case 1:
+                        ArrayShape[i] = new ISquare(rd.Next(1, 11));
+                        break;
+                    case 2:
+                        ArrayShape[i] = new ICircle(rd.Next(1, 11));
+                        break;
+                }
+            }
+            
+
+            foreach (var shape in ArrayShape)
+            {
+                Console.WriteLine($"Shape mac dinh: {shape}");
+                Console.WriteLine($"dien tich mac dinh: {shape.getArea():F2}");
+
+                if (shape is InterfaceResizeable resizeable)
+                {
+                    
+                    double percent = rd.Next(1, 101);
+                    resizeable.Resize(percent);
+
+                    Console.WriteLine($"shape da doi size: {shape}");
+                    Console.WriteLine($"dien tich da doi size: {shape.getArea():F2}");
+                    Console.WriteLine($"so size doi: {percent}%");
+
+                }
+                Console.WriteLine("------------------------------------------------");
+
+            }*/
+
+
+
         }
 
         ////////////////////////////////////////////////////////////
