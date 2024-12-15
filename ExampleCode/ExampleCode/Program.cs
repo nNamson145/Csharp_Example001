@@ -1,4 +1,5 @@
-﻿using ExampleCode.IntefaceTask;
+﻿using ExampleCode.ArrayListDictionary;
+using ExampleCode.IntefaceTask;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -272,6 +273,103 @@ namespace ExampleCode
                 Console.WriteLine("==========================");
             }*/
 
+
+            //10
+
+            //Tạo array List Dictionary cho class học sinh
+            /*//Array
+            Student[] ArrayStudent = new Student[]
+            {
+                new Student("Kien", 20 , new DateTime(2000,10, 11)),
+                new Student("Hieu", 19 , new DateTime(2001,11, 22)),
+                new Student("Son", 18 , new DateTime(2002,12, 31)),
+                new Student("Hieu", 17 , new DateTime(2003,1, 03)),
+                new Student("Hoang", 16 , new DateTime(2004,10, 23)),
+                new Student("Long", 15 , new DateTime(2005,6, 26)),
+                new Student("Binh", 14 , new DateTime(2006,6, 15)),
+                new Student("Hung", 13 , new DateTime(2007,7, 12)),
+                new Student("An", 12 , new DateTime(2008,8, 17)),
+                new Student("Thang", 11 , new DateTime(2009,9, 19))
+            };
+            Console.WriteLine("Student Array");
+            foreach (Student student in ArrayStudent)
+            {
+                Console.WriteLine(student.ToString());
+            }
+            Console.WriteLine("Tim sinh vien ten");
+            string foundStudent = Console.ReadLine();
+            foreach (Student student in ArrayStudent)
+            {
+                if (student.Name == foundStudent)
+                {
+                    Console.WriteLine(student.ToString());
+                }
+            }*/
+
+
+            /*//List
+            List<Student> studentList = new List<Student>
+            {
+                new Student("Kien", 20 , new DateTime(2000,10, 11)),
+                new Student("Hieu", 19 , new DateTime(2001,11, 22)),
+                new Student("Son", 18 , new DateTime(2002,12, 31)),
+                new Student("Hieu", 17 , new DateTime(2003,1, 03)),
+                new Student("Hoang", 16 , new DateTime(2004,10, 23)),
+                new Student("Long", 15 , new DateTime(2005,6, 26)),
+                new Student("Binh", 14 , new DateTime(2006,6, 15)),
+                new Student("Hung", 13 , new DateTime(2007,7, 12)),
+                new Student("An", 12 , new DateTime(2008,8, 17)),
+                new Student("Thang", 11 , new DateTime(2009,9, 19))
+
+            };
+            foreach (Student student in studentList)
+            {
+                student.ToString();
+            }
+            Console.WriteLine("Tim sinh vien ten");
+            string foundStu = Console.ReadLine();
+            var foundStudent = studentList.FindAll(student => student.Name == foundStu);
+
+            if (foundStudent != null)
+            {
+                foreach(var student in foundStudent)
+                {
+                    Console.WriteLine(student.ToString());
+
+                }
+            }
+            else
+            {
+                Console.WriteLine("Khong tim thay sinh vien");
+            }*/
+            
+            /*//Dictionary
+            Dictionary<string, Student[]> studentDic = new Dictionary<string, Student[]>();*/
+
+            //Bài tập List Dictionary
+            /*//Quest01
+            AddAndDisplayElements Quest01 = new AddAndDisplayElements();
+            Quest01.AddElements();*/
+
+            /*//Quest02
+            FindMinMax max = new FindMinMax();
+            max.FindMinMaxValue();*/
+
+            /*//Quest03
+            DeleteElementOfList Quest03 = new DeleteElementOfList();
+            Quest03.DeleteElementOnList();*/
+
+            /*//Quest04
+            SortTheList Quest04 = new SortTheList();
+            Quest04.SortList();*/
+
+            /*//Quest05
+            CountOccurrences Quest5 = new CountOccurrences();
+
+            string word = "Day";
+
+            int Result = Quest5.CountOccurrence("Day la so 1, Day la so 1, Day la so 1",word);
+            Console.WriteLine("So lan chu " + word + " lap lai trong cau la: " + Result);*/
 
         }
 

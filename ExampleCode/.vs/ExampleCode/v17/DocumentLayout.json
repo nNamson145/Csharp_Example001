@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\arraylistdictionary\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\arraylistdictionary\\countoccurrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\countoccurrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\arraylistdictionary\\addanddisplayelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\addanddisplayelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\arraylistdictionary\\managecontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\managecontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\intefacetask\\irectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\irectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\arraylistdictionary\\sortthelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\sortthelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\intefacetask\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\ishape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\arraylistdictionary\\deleteelementoflist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\deleteelementoflist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\intefacetask\\interfacecolorable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\interfacecolorable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\intefacetask\\isquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\isquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\intefacetask\\icircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\intefacetask\\icircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\arraylistdictionary\\findminmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\findminmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs",
               "RelativeDocumentMoniker": "ExampleCode\\Program.cs",
               "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs",
               "RelativeToolTip": "ExampleCode\\Program.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAADwv9QAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAANkAAAAAAAAAAAAowKIBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T10:53:43.293Z",
               "EditorCaption": ""
@@ -52,66 +60,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InterfaceColorable.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\InterfaceColorable.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\InterfaceColorable.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\InterfaceColorable.cs",
-              "RelativeToolTip": "ExampleCode\\IntefaceTask\\InterfaceColorable.cs",
+              "Title": "ManageContacts.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\ManageContacts.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\ManageContacts.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\ManageContacts.cs",
+              "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\ManageContacts.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T11:04:19.312Z",
+              "WhenOpened": "2024-12-14T11:20:09.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IShape.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\IShape.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\IShape.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\IShape.cs",
-              "RelativeToolTip": "ExampleCode\\IntefaceTask\\IShape.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDgAAAALAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\Contact.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\Contact.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\Contact.cs",
+              "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:02:24.043Z",
+              "WhenOpened": "2024-12-14T11:45:23.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IRectangle.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\IRectangle.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\IRectangle.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\IRectangle.cs",
-              "RelativeToolTip": "ExampleCode\\IntefaceTask\\IRectangle.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwEQAAAAlAAAAAAAAAA==",
+              "Title": "CountOccurrences.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\CountOccurrences.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\CountOccurrences.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\CountOccurrences.cs",
+              "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\CountOccurrences.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:04:47.657Z",
+              "WhenOpened": "2024-12-14T10:39:20.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ISquare.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\ISquare.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\ISquare.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\ISquare.cs",
-              "RelativeToolTip": "ExampleCode\\IntefaceTask\\ISquare.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AddAndDisplayElements.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\AddAndDisplayElements.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\AddAndDisplayElements.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\AddAndDisplayElements.cs",
+              "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\AddAndDisplayElements.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:04:21.53Z",
+              "WhenOpened": "2024-12-12T12:44:11.902Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FindMinMax.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\FindMinMax.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\FindMinMax.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\FindMinMax.cs",
+              "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\FindMinMax.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:02:49.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteElementOfList.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\DeleteElementOfList.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\DeleteElementOfList.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\DeleteElementOfList.cs",
+              "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\DeleteElementOfList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T13:22:48.822Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ICircle.cs",
-              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\ICircle.cs",
-              "RelativeDocumentMoniker": "ExampleCode\\IntefaceTask\\ICircle.cs",
-              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\IntefaceTask\\ICircle.cs",
-              "RelativeToolTip": "ExampleCode\\IntefaceTask\\ICircle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAmAAAAAAAAAA==",
+              "Title": "SortTheList.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\SortTheList.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\SortTheList.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\SortTheList.cs",
+              "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\SortTheList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:04:36.336Z",
+              "WhenOpened": "2024-12-12T13:44:50.615Z",
               "EditorCaption": ""
             }
           ]
