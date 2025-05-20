@@ -370,9 +370,19 @@ namespace ExampleCode
 
             int Result = Quest5.CountOccurrence("Day la so 1, Day la so 1, Day la so 1",word);
             Console.WriteLine("So lan chu " + word + " lap lai trong cau la: " + Result);*/
-
+            
+            Console.WriteLine(FibClimb(10));
         }
+        
+        static long FibClimb(int n)
+        {
+            if (n == 0) return 1; 
+            if (n == 1) return 1;
+            if (n == 2) return 1;
 
+            return FibClimb(n - 1) + FibClimb(n - 2);
+        }
+        
         ////////////////////////////////////////////////////////////
         /// <summary>
         /// Bai 3 : C# căn bản - Biến, kiểu dữ liệu và toán tử
@@ -1487,14 +1497,15 @@ public abstract class Animal
 class TheCat : Animal
 {
     private string name;
-    public TheCat(string weight, string height, string name):base(weight, height)
+
+    public TheCat(string weight, string height, string name) : base(weight, height)
     {
-        this.name = name;   
+        this.name = name;
     }
 
     public override void PrintInfo()
     {
-        Console.WriteLine("Wei: " + this.weight +" Hei: " + this.height + " Name: " + this.name);
+        Console.WriteLine("Wei: " + this.weight + " Hei: " + this.height + " Name: " + this.name);
     }
-
 }
+
