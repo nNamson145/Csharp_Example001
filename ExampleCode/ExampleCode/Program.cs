@@ -1,5 +1,6 @@
 ﻿using ExampleCode.ArrayListDictionary;
 using ExampleCode.IntefaceTask;
+using ExampleCode.TestSOLID;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,24 @@ namespace ExampleCode
     {
         static void Main(string[] args)
         {
+
+            MobilePhone phone = new MobilePhone();
+
+            // Thêm tính năng
+            phone.AddFeature(FeatureType.Call);
+            phone.AddFeature(FeatureType.Camera);
+            phone.AddFeature(FeatureType.Internet);
+
+            // Sử dụng tính năng
+            phone.SwitchFeature(FeatureType.Call);
+            phone.UseFeature();
+
+            phone.SwitchFeature(FeatureType.Camera);
+            phone.UseFeature();
+
+            phone.SwitchFeature(FeatureType.Internet);
+            phone.UseFeature();
+
             //3
 
             /*//In thời gian thực và hello world
@@ -342,7 +361,7 @@ namespace ExampleCode
             {
                 Console.WriteLine("Khong tim thay sinh vien");
             }*/
-            
+
             /*//Dictionary
             Dictionary<string, Student[]> studentDic = new Dictionary<string, Student[]>();*/
 
@@ -370,18 +389,18 @@ namespace ExampleCode
 
             int Result = Quest5.CountOccurrence("Day la so 1, Day la so 1, Day la so 1",word);
             Console.WriteLine("So lan chu " + word + " lap lai trong cau la: " + Result);*/
-            
-            Console.WriteLine(FibClimb(10));
+
+            //Console.WriteLine(FibClimb(10));
         }
         
-        static long FibClimb(int n)
+        /*static long FibClimb(int n)
         {
             if (n == 0) return 1; 
             if (n == 1) return 1;
             if (n == 2) return 1;
 
             return FibClimb(n - 1) + FibClimb(n - 2);
-        }
+        }*/
         
         ////////////////////////////////////////////////////////////
         /// <summary>

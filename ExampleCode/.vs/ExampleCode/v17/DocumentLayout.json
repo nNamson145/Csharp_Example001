@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\testsolid\\mobiephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\testsolid\\mobiephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\arraylistdictionary\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\arraylistdictionary\\countoccurrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\arraylistdictionary\\countoccurrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\countoccurrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,15 +23,11 @@
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\addanddisplayelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\arraylistdictionary\\managecontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\arraylistdictionary\\managecontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\managecontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|d:\\githublibrary\\csharp_example\\csharp_example001\\examplecode\\examplecode\\arraylistdictionary\\sortthelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\examplecode\\arraylistdictionary\\sortthelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8A6793A-FAA5-439F-82E6-9B3DC4968D5F}|ExampleCode\\ExampleCode.csproj|solutionrelative:examplecode\\arraylistdictionary\\sortthelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,24 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "mobiePhone.cs",
+              "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\TestSOLID\\mobiePhone.cs",
+              "RelativeDocumentMoniker": "ExampleCode\\TestSOLID\\mobiePhone.cs",
+              "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\TestSOLID\\mobiePhone.cs",
+              "RelativeToolTip": "ExampleCode\\TestSOLID\\mobiePhone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:07:45.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs",
               "RelativeDocumentMoniker": "ExampleCode\\Program.cs",
               "ToolTip": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\Program.cs",
               "RelativeToolTip": "ExampleCode\\Program.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAowKIBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T10:53:43.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ManageContacts.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\ManageContacts.cs",
               "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\ManageContacts.cs",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\ManageContacts.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T11:20:09.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T11:20:09.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Contact.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\Contact.cs",
               "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\Contact.cs",
@@ -85,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CountOccurrences.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\CountOccurrences.cs",
               "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\CountOccurrences.cs",
@@ -93,12 +109,11 @@
               "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\CountOccurrences.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T10:39:20.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T10:39:20.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AddAndDisplayElements.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\AddAndDisplayElements.cs",
               "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\AddAndDisplayElements.cs",
@@ -106,12 +121,11 @@
               "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\AddAndDisplayElements.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T12:44:11.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T12:44:11.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FindMinMax.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\FindMinMax.cs",
               "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\FindMinMax.cs",
@@ -123,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DeleteElementOfList.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\DeleteElementOfList.cs",
               "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\DeleteElementOfList.cs",
@@ -135,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SortTheList.cs",
               "DocumentMoniker": "D:\\GitHubLibrary\\Csharp_Example\\Csharp_Example001\\ExampleCode\\ExampleCode\\ArrayListDictionary\\SortTheList.cs",
               "RelativeDocumentMoniker": "ExampleCode\\ArrayListDictionary\\SortTheList.cs",
@@ -143,8 +157,7 @@
               "RelativeToolTip": "ExampleCode\\ArrayListDictionary\\SortTheList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T13:44:50.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T13:44:50.615Z"
             }
           ]
         }
